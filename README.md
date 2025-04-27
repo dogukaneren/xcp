@@ -25,7 +25,6 @@ Internally, `xcp` uses `pv` and `tar` to provide smooth progress visualization e
 You can build and install it manually:
 
 ```bash
-git clone https://github.com/dogukaneren/xcp.git
-cd xcp
-sudo cp xcp /usr/local/bin/
+git clone https://github.com/dogukaneren/xcp
+sudo cp xcp.sh /usr/local/bin/xcp
 sudo chmod +x /usr/local/bin/xcp
